@@ -9,7 +9,7 @@ include(FetchContent)
 
 FetchContent_Declare(
   ada
-  GIT_REPOSITORY git@github.com:ada-url/ada.git
+  GIT_REPOSITORY https://github.com/ada-url/ada.git
   GIT_SHALLOW TRUE
   GIT_TAG tags/v2.7.2
   )
